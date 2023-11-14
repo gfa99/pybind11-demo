@@ -20,6 +20,11 @@ cmake ..
 make
 ```
 
+## Configure the env
+```Shell
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:.
+export PYTHONPATH=$PYTHONPATH:.
+```
 
 ## Example test run
 
